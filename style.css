@@ -1,0 +1,188 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #F4F6F8;
+  color: #1A202C;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0F4C81;
+  color: #FFFFFF;
+  padding: 32px 0;
+  border-bottom: 4px solid #093154;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Menu de Navegação */
+nav {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #CBD5E1;
+  padding: 14px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+nav a {
+  color: #0F4C81;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #E2E8F0;
+  outline: 3px solid #D97706;
+}
+
+/* Estrutura Principal */
+main {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.bloco {
+  background-color: #FFFFFF;
+  border: 2px solid #CBD5E1;
+  border-radius: 8px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #0F4C81;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #E2E8F0;
+}
+
+p {
+  margin-bottom: 14px;
+}
+
+.ordem-visual {
+  background-color: #E0F2FE;
+  border-left: 5px solid #0F4C81;
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: #093154;
+}
+
+/* Botões */
+.grupo-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #0F4C81;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 22px;
+  border-radius: 6px;
+  border: 2px solid #0F4C81;
+}
+
+.botao-secundario {
+  background-color: #FFFFFF;
+  color: #0F4C81;
+}
+
+.botao:hover,
+.botao:focus {
+  outline: 3px solid #D97706;
+  outline-offset: 2px;
+}
+
+/* Cartões da Rotina */
+.lista-atividades {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.cartao-atividade {
+  background-color: #F8FAFC;
+  border: 2px solid #CBD5E1;
+  border-left: 6px solid #0F4C81;
+  border-radius: 6px;
+  padding: 18px 20px;
+}
+
+.etapa {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0F4C81;
+  background-color: #E0F2FE;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.cartao-atividade h3 {
+  font-size: 20px;
+  color: #1A202C;
+  margin-bottom: 8px;
+}
+
+.cartao-atividade p {
+  margin-bottom: 4px;
+}
+
+/* Lista de Dicas */
+.lista-simples {
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.lista-simples li {
+  margin-bottom: 12px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #E2E8F0;
+  color: #1A202C;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #CBD5E1;
+  font-size: 16px;
+}
